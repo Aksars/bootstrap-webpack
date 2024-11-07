@@ -1,0 +1,14 @@
+$primary : rgb(94, 202, 36);
+
+@import "bootstrap/scss/bootstrap";
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.testclass{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
