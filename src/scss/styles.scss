@@ -4,7 +4,7 @@ $primary : rgb(94, 202, 36);
 
 body {
     background-color: black;
-    color: white;
+    color: red;
 }
 
 .testclass{
@@ -12,3 +12,7 @@ body {
     justify-content: space-around;
     align-items: center;
 }
+
+::placeholder {
+    color: red;
+  }
